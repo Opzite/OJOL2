@@ -151,7 +151,7 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
 $(document).ready(function(){
             //Let's first setup the redirect
         function redirect(){
-            window.location.assign('https://www.opzite.com/');
+            window.location.assign('http://www.opzite.com/');
         }
             //which things we got to check
         function check(){
@@ -167,7 +167,7 @@ $(document).ready(function(){
                 else if($('#copyright-link').length === 0){
                     redirect();
                 }
-                else if($("#copyright-link").attr("href") !== "https://www.opzite.com/"){
+                else if($("#copyright-link").attr("href") !== "http://www.opzite.com/"){
                     redirect();
                 }
                 else if($('#copyright-link').text() !== "Opzite.com"){
